@@ -5,6 +5,7 @@ import io.github.AzmiiD.prankAz.commands.ExplodeCommand;
 import io.github.AzmiiD.prankAz.commands.ConfuseCommand;
 import io.github.AzmiiD.prankAz.commands.CreeperCommand;
 import io.github.AzmiiD.prankAz.commands.FreezeCommand;
+import io.github.AzmiiD.prankAz.commands.FakeOpCommand;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -19,6 +20,7 @@ public final class PrankAz extends JavaPlugin {
         getCommand("confuse").setExecutor(new ConfuseCommand());
         getCommand("creeper").setExecutor(new CreeperCommand());
         getCommand("freeze").setExecutor(new FreezeCommand());
+        getCommand("/fakeop").setExecutor(new FakeOpCommand());
     }
 
     @Override
