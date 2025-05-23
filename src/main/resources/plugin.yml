@@ -1,0 +1,17 @@
+name: PrankAz
+version: '1.0-SNAPSHOT'
+main: io.github.AzmiiD.prankAz.PrankAz
+api-version: '1.21'
+authors: [ Azmii_ ]
+description: Just Trol Your Member
+commands:
+  fakeleave:
+    description: Display a message as if the player left the server
+  explode:
+    description: Effect fake explosion
+  confuse:
+    description: Gives confusion effect to the player
+  creeper:
+    description: Suara creeper mendekat dan meledak
+  freeze:
+    description: Membekukan player agar tidak bisa bergerak
